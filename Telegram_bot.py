@@ -95,7 +95,7 @@ def get_current_weather(message):
         weather_info = get_weather(city)
         bot.send_message(message.chat.id, weather_info)
     except IndexError:
-        bot.send_message(message.chat.id, "Пожалуйста, укажите название города")
+        bot.send_message(message.chat.id, "Пожалуйста, укажите название города!")
 
 
 bot.polling()
