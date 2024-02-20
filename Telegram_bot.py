@@ -7,7 +7,7 @@ API_URL = 'https://7012.deeppavlov.ai/model'
 
 API_TOKEN = 'your token'
 bot = telebot.TeleBot(API_TOKEN)
-API_KEY = 'd0681b410aa5c3ef0855c67b509715c8'
+API_KEY = 'your token openweathermap'
 
 
 def get_weather(city):
