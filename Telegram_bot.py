@@ -5,7 +5,7 @@ import json
 films = []
 API_URL = 'https://7012.deeppavlov.ai/model'
 
-API_TOKEN = '5932506899:AAGD7vfJSBVb5kLPM5QTYCvcKVf4P8nAm-o'
+API_TOKEN = 'your token'
 bot = telebot.TeleBot(API_TOKEN)
 API_KEY = 'd0681b410aa5c3ef0855c67b509715c8'
 
